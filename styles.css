@@ -1,0 +1,32 @@
+/* About Me Section */
+h1 {
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+
+#about_me {
+    background-color: rgb(47, 122, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    margin: 10%;
+    border-style: dashed;
+}
+
+#skills {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+
+.languages_list {
+    color: brown;
+    display: grid;
+    grid-column: auto;
+    
+}
+
+

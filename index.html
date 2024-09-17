@@ -9,16 +9,19 @@
 <body>
     <header>
         <nav>
-            <a href="#">About Me</a>
-            <a href="#">Projects</a>
-            <a href="#">Resume</a>
-            <a href="#">Contact Me</a>
+            <ul>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
+        <h1>Ceina Ellison Practice Portfolio</h1>
             <section>
-                <h1>About Me</h1>
+                <h2>About Me</h2>
                 <p id="about_me">Hi, I’m Ceina, currently completing my undergraduate degree in applied computer science at the Dominican University of California. 
                     Previously, I earned a Bachelor's in Human Resource Management from Baruch College. I decided to switch careers because I’ve always 
                     had a passion for computers but wasn’t sure where to start until I discovered General Assembly. 
@@ -29,17 +32,17 @@
             </section>
         
             <section>
-                <h2 id="skills">Skills:</h2>
-                <p id="languages">Languages:</p>
-                <ul class="languages_list">
+                <h2>Skills:</h2>
+                <p class="skill_title"><em>Languages:</em></p>
+                <ul class="list">
                     <li>Python</li>
                     <li>JavaScript</li>
                     <li>HTML</li>
                     <li>CSS</li>
                 </ul>
 
-                <p id="frameworks">Frameworks:</p>
-                <ul class="frameworks_list">
+                <p class="skill_title"><em>Frameworks:</em></p>
+                <ul class="list">
                     <li>Django</li>
                     <li>React</li>
                 </ul>
@@ -49,16 +52,16 @@
 
         <section>
             <h2>Projects</h2>
-            <p>Projects #1 (Python)</p>
+            <p class="projects">Projects #1 (Python)</p>
             <img 
             src="https://www.4-h.org/wp-content/uploads/2024/06/27164501/Python_Coding_Course_Thumbnail.jpg" 
-            alt="laptop displaying Python code written">
+            alt="laptop displaying Python code written" width="400" height="400">
         </section>
         <section>
-            <p>Projects #2 (HTML/CSS/JavaScript)</p>
+            <p class="projects">Projects #2 (HTML/CSS/JavaScript)</p>
             <img 
             src="https://i.pinimg.com/736x/e3/d2/49/e3d2496804a3805e454315162f4c7793.jpg" 
-            alt="html sketelon, css person standing, JavaScript person moving">
+            alt="html sketelon, css person standing, JavaScript person moving" width="400" height="400">
         </section>
  
 
@@ -67,7 +70,7 @@
             <h2>Resume</h2>
             <img 
             src="https://resumeworded.com/assets/images/resume-guides/software-engineer.png" 
-            alt="details what goes into a resume">
+            alt="details what goes into a resume" width="500" height="500">
         </section>
   
 
@@ -77,13 +80,13 @@
             <form>
                 <p>If you would like to get in contact with me, please send me an email below:
                 </p>
-                <label>Name: <input type="text" name="required" id="name"></label> 
-                <label>Message: <input type="email" name="required" id="message"></label>
+                <label class="labels">Name: <input type="text" name="required" id="name"></label> 
+                <label class="labels">Message: <input type="email" name="required" id="message"></label>
                 <button type="submit">Send</button>
             </form>
         </section>
   
 
-    <footer>@ Ceina Ellison 2024 Linkedin Github</footer> 
+    <footer>@ Ceina Ellison 2024</footer> 
 </body>
 </html>
